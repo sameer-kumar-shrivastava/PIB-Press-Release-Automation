@@ -1,0 +1,114 @@
+{
+  "id": "7c4286bc-6fc7-4eae-b465-d8ae32101137",
+  "version": "2.0",
+  "name": "PIB India Press Release",
+  "url": "https://pib.gov.in/",
+  "tests": [{
+    "id": "31424449-dd67-4f07-ab1e-a6971a0f5374",
+    "name": "Download Latest PDF",
+    "commands": [{
+      "id": "68b12afc-a73c-475f-80ea-3057fae625bd",
+      "comment": "",
+      "command": "open",
+      "target": "https://pib.gov.in/indexd.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "028da303-e8fe-471d-bec2-4fa714d21782",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce9a82a6-7eb2-4ad7-8674-d49b31ce3166",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.release_list > li:nth-child(1) > a",
+      "targets": [
+        ["linkText=PM greets wildlife enthusiasts on World Wildlife Day", "linkText"],
+        ["css=.release_list > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'PM greets wildlife enthusiasts on World Wildlife Day')]", "xpath:link"],
+        ["xpath=//form[@id='form1']/section[2]/div/div/div[2]/div[3]/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/PressReleseDetail.aspx?PRID=2011019')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PM greets wildlife enthusiasts on World Wildlife Day')]", "xpath:innerText"]
+      ],
+      "value": "90000"
+    }, {
+      "id": "6993c571-393e-4a16-b9ce-ec8452b896fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.release_list > li:nth-child(1) > a",
+      "targets": [
+        ["linkText=PM greets wildlife enthusiasts on World Wildlife Day", "linkText"],
+        ["css=.release_list > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'PM greets wildlife enthusiasts on World Wildlife Day')]", "xpath:link"],
+        ["xpath=//form[@id='form1']/section[2]/div/div/div[2]/div[3]/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/PressReleseDetail.aspx?PRID=2011019')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PM greets wildlife enthusiasts on World Wildlife Day')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99fb27cb-2a52-44af-b0a6-78e7be73389a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//iframe",
+      "targets": [],
+      "value": "90000"
+    }, {
+      "id": "5053aad5-c98d-4bb2-83b2-106ed319a0d6",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cdbe28eb-dad7-4a56-b044-b95ee717095d",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3181f84b-f2ed-4076-a4fc-d27d90c4c6b0",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=printPDF",
+      "targets": [],
+      "value": "90000"
+    }, {
+      "id": "29e6b2ac-6cdd-4726-bef2-63f6e7eef632",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=printPDF",
+      "targets": [
+        ["id=printPDF", "id"],
+        ["name=printPDF", "name"],
+        ["css=#printPDF", "css:finder"],
+        ["xpath=//input[@id='printPDF']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8addc66-2bac-4d8b-a474-b0d589e145c8",
+      "comment": "",
+      "command": "pause",
+      "target": "10000",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "89ec2fa5-2101-4e09-9932-94f447a39f02",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": true,
+    "timeout": 300,
+    "tests": ["31424449-dd67-4f07-ab1e-a6971a0f5374"]
+  }],
+  "urls": ["https://pib.gov.in/"],
+  "plugins": []
+}
