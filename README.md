@@ -8,7 +8,7 @@ This Selenium IDE automation script automates the process of downloading the lat
 Before running the automation script, ensure you have the following:
 
 - [Selenium IDE](https://www.selenium.dev/selenium-ide/) installed in your browser.
-- An internet connection.
+- A good internet connection.
 
 ## Usage
 
@@ -16,15 +16,15 @@ Follow these steps to execute the automation script:
 
 1. **Open Selenium IDE**: Open Selenium IDE in your browser.
 
-2. **Import `.side` File**: Import the `Download P.side` file into Selenium IDE.
+2. **Import `.side` File**: Import the `PIB India Press Release` file into Selenium IDE.
 
-3. **Review Test**: Review the test case named "pdf" within Selenium IDE.
+3. **Review Test**: Review the test case named "Download Latest PDF" within Selenium IDE.
 
 4. **Execute Test**: Run the test case to start the automation process. Ensure that a browser window is open and focused, as Selenium IDE interacts with it.
 
 5. **Wait for Execution**: The script will navigate to the PIB India website, locate the latest press release, and download the associated PDF file. Wait for the script to complete execution.
 
-6. **Verify Results**: Once the script finishes execution, verify that the latest press release PDF has been downloaded successfully.
+6. **Verify Results**: Once the script finishes execution, verify that the latest press release PDF has been downloaded successfully in your default download folder.
 
 ## Notes
 
