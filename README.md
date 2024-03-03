@@ -1,4 +1,4 @@
-```
+
 # PIB Press Release - Selenium IDE Automation Script
 
 This Selenium IDE automation script automates the process of downloading the latest press release PDF from the Press Information Bureau (PIB) of India website.
@@ -34,4 +34,4 @@ Follow these steps to execute the automation script:
 ## Support
 
 For any issues or questions regarding this automation script, please feel free to [open an issue](https://github.com/sameer-kumar-shrivastava/PIB-Press-Release-Automation/issues) in the GitHub repository.
-```
+
